@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+      "sls",
+      "ohg",
+      "sls"
+    ],
+    "key": {
+      "s": [
+        "minecraft:armadillo_scute"
+      ],
+      "l": [
+        "minecraft:pale_oak_log"
+      ],
+      "h": [
+        "minecraft:creaking_heart"
+      ],
+      "o": [
+        "minecraft:orange_dye"
+      ],
+      "g": [
+        "minecraft:gray_dye"
+      ]
+    },
+    "result": {
+      "id": "minecraft:creaking_spawn_egg",
+      "components": {
+        "minecraft:custom_name": "\"Creaking in an Egg\"",
+        "minecraft:rarity": "epic",
+        "minecraft:lore": [
+          "\"A Creaking that doesn't\"",
+          "\"despawn if named!\""
+        ]
+      },
+      "count": 1
+    },
+    "show_notification": true
+  }
